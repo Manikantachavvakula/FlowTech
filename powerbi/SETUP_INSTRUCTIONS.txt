@@ -1,0 +1,57 @@
+
+POWER BI DASHBOARD SETUP INSTRUCTIONS
+=====================================
+
+1. OPEN POWER BI DESKTOP
+   - Open Power BI Desktop
+   - Click "Get Data" -> "Text/CSV"
+   - Navigate to: powerbi/data_sources/
+
+2. LOAD DATA SOURCES
+   - Import these files in order:
+     a. customers.csv (main dataset)
+     b. risk_summary.csv
+     c. contract_analysis.csv
+     d. service_adoption.csv
+     e. tenure_analysis.csv
+     f. support_analysis.csv
+
+3. CREATE RELATIONSHIPS
+   - Go to "Model" view
+   - Create relationships between tables (auto-detect usually works)
+
+4. ADD DAX MEASURES
+   - Copy measures from powerbi/dax_measures/measures.txt
+   - Paste into Power BI as New Measures
+
+5. BUILD DASHBOARD PAGES
+   Follow the layout in powerbi/dashboard_config.json
+
+RECOMMENDED VISUALS:
+===================
+
+OVERVIEW PAGE:
+- KPI Cards (Total Customers, Churn Rate, Revenue at Risk)
+- Risk Distribution Donut Chart
+- Monthly Revenue Trend Line
+- Contract Type Analysis
+
+RISK ANALYSIS PAGE:
+- Customer Risk Treemap
+- High-Risk Customers Table
+- Churn Probability Histogram
+- Feature Importance Chart
+
+ENGAGEMENT PAGE:
+- Health Score Gauges
+- Usage Patterns Scatter Plot
+- Service Adoption Chart
+- Support Analysis
+
+COLOR SCHEME:
+============
+- Low Risk: Green (#2ecc71)
+- Medium Risk: Orange (#f39c12)
+- High Risk: Red (#e74c3c)
+- Primary: Blue (#3498db)
+- Secondary: Purple (#9b59b6)

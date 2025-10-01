@@ -1,0 +1,5 @@
+ticket_volume,customer_count,avg_churn_prob,avg_satisfaction,avg_resolution_hours
+High (6+),786,1.0,3.0,31.08
+Low (1-2),2817,0.1,3.01,31.43
+Medium (3-5),2173,0.4,2.97,31.17
+No Tickets,1267,0.0,5.0,0.0

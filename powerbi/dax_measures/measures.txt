@@ -1,0 +1,22 @@
+
+// Key Metrics
+Total Customers = COUNT(customers[customerID])
+Churn Rate = DIVIDE([Churned Customers], [Total Customers])
+Churned Customers = CALCULATE(COUNT(customers[customerID]), customers[Churn] = "Yes")
+At Risk Customers = CALCULATE(COUNT(customers[customerID]), customers[risk_segment] = "High Risk")
+Revenue At Risk = CALCULATE(SUM(customers[annual_revenue_at_risk]), customers[risk_segment] = "High Risk")
+
+// Customer Health
+Avg Health Score = AVERAGE(customers[health_score])
+Low Health Customers = CALCULATE(COUNT(customers[customerID]), customers[health_score] < 50)
+High Health Customers = CALCULATE(COUNT(customers[customerID]), customers[health_score] >= 80)
+
+// Engagement Metrics
+Avg Monthly Sessions = AVERAGE(customers[avg_session_per_month])
+Low Engagement Customers = CALCULATE(COUNT(customers[customerID]), customers[is_low_engagement] = 1)
+Power Users = CALCULATE(COUNT(customers[customerID]), customers[is_power_user] = 1)
+
+// Business Impact
+Total Monthly Revenue = SUM(customers[MonthlyCharges])
+Upsell Potential = SUM(customers[upsell_potential_revenue])
+Retention Savings = [Revenue At Risk] * 0.3

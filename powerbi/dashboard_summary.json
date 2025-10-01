@@ -1,0 +1,8 @@
+{
+  "total_customers": 7043,
+  "churn_rate": 0.2654,
+  "high_risk_customers": 1762,
+  "revenue_at_risk": 1594656.6,
+  "upsell_opportunities": 3526,
+  "monthly_upsell_potential": 52890.0
+}

@@ -1,0 +1,4 @@
+predicted_risk_segment,customer_count,monthly_revenue,revenue_at_risk,avg_churn_prob,avg_satisfaction,avg_health_score
+High Risk,1653,123886.75,1486641.0,0.94,2.99,56.46
+Low Risk,4936,297448.8,3569385.6,0.04,3.51,67.44
+Medium Risk,454,34781.05,417372.6,0.43,2.99,61.27

@@ -1,0 +1,10 @@
+Contract,predicted_risk_segment,customer_count,avg_churn_prob,avg_monthly_charges
+Month-to-month,High Risk,1495,0.94,73.91
+Month-to-month,Low Risk,1966,0.06,58.88
+Month-to-month,Medium Risk,414,0.43,74.99
+One year,High Risk,121,0.98,85.15
+One year,Low Risk,1320,0.03,62.55
+One year,Medium Risk,32,0.4,92.26
+Two year,High Risk,37,0.98,83.45
+Two year,Low Risk,1650,0.02,60.08
+Two year,Medium Risk,8,0.43,97.93

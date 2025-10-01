@@ -1,0 +1,9 @@
+Metric,Value
+Total Customers,"7,043"
+High Risk Customers (≥50%),"1,762"
+Medium Risk Customers (30-50%),345
+Low Risk Customers (<30%),"4,936"
+Annual Revenue at Risk,"$1,594,656.60"
+Customers with Upsell Opportunities,"3,526"
+Model ROC-AUC Score,97.62%
+Model Recall (Catches Churners),82.6%

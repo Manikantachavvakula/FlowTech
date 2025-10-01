@@ -1,0 +1,37 @@
+{
+  "data_sources": {
+    "primary": "customers.csv",
+    "supporting_tables": [
+      "risk_summary.csv",
+      "contract_analysis.csv",
+      "service_adoption.csv"
+    ]
+  },
+  "recommended_visuals": {
+    "overview_page": [
+      "KPI Cards: Total Customers, Churn Rate, Revenue at Risk",
+      "Risk Distribution: Donut chart",
+      "Monthly Revenue Trend: Line chart",
+      "Churn by Contract Type: Stacked bar chart"
+    ],
+    "risk_analysis_page": [
+      "Risk Segment Breakdown: Treemap",
+      "High Risk Customers: Table with contact info",
+      "Churn Probability Distribution: Histogram",
+      "Feature Importance: Horizontal bar chart"
+    ],
+    "engagement_page": [
+      "Health Score Distribution: Gauge charts",
+      "Usage Patterns: Scatter plot (sessions vs tenure)",
+      "Service Adoption: Stacked column chart",
+      "Support Ticket Analysis: Waterfall chart"
+    ]
+  },
+  "color_scheme": {
+    "low_risk": "#2ecc71",
+    "medium_risk": "#f39c12",
+    "high_risk": "#e74c3c",
+    "primary": "#3498db",
+    "secondary": "#9b59b6"
+  }
+}
