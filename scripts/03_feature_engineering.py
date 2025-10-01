@@ -386,6 +386,3 @@ print(f"✅ Risk indicators created and validated")
 print(f"✅ Dataset ready for modeling!")
 
 print("\n" + "=" * 80)
-print("📝 Next Step: Share this output with me!")
-print("   We'll start building the machine learning model next!")
-print("=" * 80 + "\n")

@@ -417,6 +417,3 @@ print(f"   💵 Revenue at risk: ${total_at_risk_revenue:,.2f}/year")
 print(f"   🎁 Upsell opportunities: {len(has_upsell):,} customers")
 
 print("\n" + "=" * 80)
-print("📝 Next Step: Share this output with me!")
-print("   We'll create the Power BI dashboard next!")
-print("=" * 80 + "\n")

@@ -168,5 +168,3 @@ if all_issues:
 print("\n" + "=" * 80)
 print("🎉 EXPLORATION COMPLETE!")
 print("=" * 80)
-print("\n📝 Next Step: Review this output and share it with me.")
-print("   I'll analyze it and give you the next task!\n")

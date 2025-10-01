@@ -418,6 +418,3 @@ print(f"   • Feature importance report")
 print(f"   • 3 visualization charts")
 
 print("\n" + "=" * 80)
-print("📝 Next Step: Share this output with me!")
-print("   We'll create predictions and build the Power BI dashboard next!")
-print("=" * 80 + "\n")
