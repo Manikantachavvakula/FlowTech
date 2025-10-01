@@ -308,8 +308,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Author
 
 **Your Name**
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/manikanta-chavvakula-43b308189)
-- Portfolio: [@yourusername](https://manikanta-portfolio-six.vercel.app/)
+- LinkedIn: (https://linkedin.com/in/manikanta-chavvakula-43b308189)
+- Portfolio: (https://manikanta-portfolio-six.vercel.app/)
 
 ---
 
