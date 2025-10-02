@@ -213,6 +213,9 @@ The project includes three interactive dashboards:
 - Revenue at risk metrics
 - Top at-risk customers table
 - Risk trends by services
+- 
+<img width="1171" height="668" alt="image" src="https://github.com/user-attachments/assets/9d95ed9a-7eac-4ae9-a747-0e6f9ff461ee" />
+
 
 ### 2. Engagement Analytics
 - Session and usage metrics
@@ -220,11 +223,16 @@ The project includes three interactive dashboards:
 - Customer activity patterns
 - Engagement gauge
 
+  <img width="1216" height="665" alt="image" src="https://github.com/user-attachments/assets/f0f55372-db5e-42c6-8e35-146a5e6bd4d9" />
+
+
 ### 3. Executive Overview
 - KPI cards (total customers, churned, at-risk, revenue)
 - Contract analysis
 - Customer segmentation
 - Support impact visualization
+
+<img width="1130" height="653" alt="image" src="https://github.com/user-attachments/assets/277bb4b5-8fc1-4b31-9bfb-3f41e7e7c1f0" />
 
 ### Connecting Power BI to Database
 
@@ -320,5 +328,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Kaggle for dataset inspiration and learning resources
 
 ---
+
 
 **⭐ If you found this project helpful, please consider giving it a star!**
